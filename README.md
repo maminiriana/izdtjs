@@ -1,2 +1,3 @@
 # cotrana
-first website maminiriana  
+first website maminiriana
+fichiers :  index.php (initialisations de la session)  

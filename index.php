@@ -1,4 +1,5 @@
 <?php
+	//initilisation de la sessions
 	ini_set("register_globals","off");
 	ini_set("display_errors","off");
 	session_start();
