@@ -406,7 +406,7 @@ p {
 /*CSS SLIDER_slider1*/
 #slider {
     position: relative;
-    width: 1200px;
+    /*width: 1200px;*/
     margin: auto;
 }
 /*fin SLIDER_slider2*/
