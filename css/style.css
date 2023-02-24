@@ -138,6 +138,18 @@ p {
 	padding: 5px;
 	background-color: #EBEBEB;
 }
+.main_content_the_web, .main_content_mediaweb, .main_content_canaldistributionweb {
+	float: left;
+	padding: 15px;
+	text-align: justify;
+	background-color: #EBEBEB;
+}
+.main_content_the_web h2, .main_content_mediaweb h2, .main_content_canaldistributionweb h2 {
+	font-family: Arial,Helvetica,Sans-Serif;
+    font-size: 24px;
+    color: #014464;
+    font-weight: normal;
+}
 .services{
 	width: 700px; 
 	height: auto;
@@ -391,11 +403,10 @@ p {
 	color: white;
   }
 /*fin CSS MENU MAINNAV*/
-
-/*CSS SLIDER*/
+/*CSS SLIDER_slider1*/
 #slider {
     position: relative;
     width: 1200px;
     margin: auto;
 }
-/*fin CSS SLIDER*/
+/*fin SLIDER_slider2*/
