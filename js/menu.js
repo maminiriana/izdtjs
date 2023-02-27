@@ -1,0 +1,30 @@
+let div = document.createElement('div');
+div.className = "mainnav";
+div.innerHTML = '<nav>'
+  + '<ul>'
+  + '<li><a href="index.html">Acceuil</a></li>'
+  + '<li class="menu-deroulant">'
+  + '<a href="the-web.html">Le Web</a>'
+  + '<ul class="sous-menu">'
+  + '<li><a href="mediaweb.html">Le web, un média ?</a></li>'
+  + '<li><a href="canaldistributionweb.html">Le web comme canal de distribution</a></li>'
+  + '</ul>'
+  + '</li>'
+  + '<li class="menu-deroulant">'
+  + '<a href="step-concept-site.html">Infos</a>'
+  + '<ul class="sous-menu">'
+  + '<li><a href="mes-competences.html">Mes compétences</a></li>'
+  + '</ul>'
+  + '</li>'
+  + '<li class="menu-deroulant">'
+  + '<a href="services-concept-site.html">Services</a>'
+  + '<ul class="sous-menu">'
+  + '<li><a href="services-concept-site-dns-host.html">Hébergement et nom de domaine</a></li>'
+  + '<li><a href="services-concept-site-web-solution-main.html">Solution web</a></li>'
+  + '<li><a href="services-concept-site-benefits.html">Vos avantages</a></li>'
+  + '</ul>'
+  + '</li>'
+  + '</ul>'
+  + '</nav>';
+
+document.getElementById("wrapper").append(div);
