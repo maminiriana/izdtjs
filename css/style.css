@@ -40,13 +40,12 @@ p {
 }
 #wrapper {
 	margin: 0 auto;
-	width: 942px;
+    width: 942px;
 }
 .header{
-	margin: 0 auto;
 	height: 274px;
-    width: 942px;
 	padding-top: 12px;
+	background-color: #ffffff;
 }
 .head_bloc1{
 	float: left;
@@ -67,26 +66,18 @@ p {
 .smile{
 	margin: 0;
 	float: left;
-	height: 274px;
-    width: 272px; 
 }
 .pattern{
 	margin: 0;
 	float: left;
-	height: 274px;
-    width: 405px; 
 }
 .patt2{
 	margin: 0;
 	float: left;
-	height: 137px;
-    width: 145px;
 }
 .patt3{
 	margin: 0;
 	float: left;
-	height: 137px;
-    width: 260px;
 }
 
 .boxslideshow{
@@ -104,7 +95,6 @@ p {
 /*CSS main ##########################################*/
 .mainnav{
 	background: url("../img/bg-menu.png") repeat scroll center top #EBEBEB;
-	margin: 7px 5px 0px 5px;
 }
 .content{
 	height: auto;
@@ -112,9 +102,8 @@ p {
 	font-size: 14px;
 }
 .main_ban{
-	width: 200px;
+	width: 20%;
 	float: left;
-	padding: 0px 10px 10px 10px;
 	background-color: #EBEBEB;
 }
 
@@ -122,8 +111,8 @@ p {
 	padding: 5px;
 }
 .main_content{
+	width: 80%;
 	float: left;
-	padding: 5px;
 	background-color: #EBEBEB;
 }
 .main_content_the_web, .main_content_mediaweb, .main_content_canaldistributionweb, 
@@ -146,14 +135,13 @@ p {
     font-weight: normal;
 }
 .services{
-	width: 700px; 
 	height: auto;
 	padding: 5px;
 	margin: 0;
 }
 .offer{
 	float: left;
-	width: 135px;
+	width: 19.5%;
 	padding: 10px 15px 10px 15px;
 	margin: 5px;
 	
@@ -193,7 +181,7 @@ p {
 }
 .benefits{
 	float: left;
-	width: 135px; /*320*/ 
+	width: 19.5%; 
 	padding: 10px 15px 10px 15px;
 	margin: 5px;
 	background-color: #014464;
@@ -380,3 +368,55 @@ p {
     margin: auto;
 }
 /*fin SLIDER_slider2*/
+
+
+/*CSS responsive*/
+@media (max-width: 950px) {
+	.main_ban {
+		width: 100%;
+	}
+	#wrapper {
+		width: auto;
+	}
+	.boxslider {
+		display: none;
+	}
+}	
+
+@media (min-width: 769px) {
+	#logo-collapse {
+		display: none;
+	}	
+}
+#logo-collapse {
+	background-color: #fff;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+	.offer, .benefits {
+		width: 92%;
+	}
+	#link-home {
+		display: none;
+	}
+	nav ul {
+		font-size: 14px;
+	}
+
+	.header {
+		display: none;
+	}
+	.main_ban {
+		width: 100%;
+	}
+	#wrapper {
+		width: auto;
+	}
+	.main_content {
+		width: 100%;
+	}
+
+}
+
+/*CSS responsive*/

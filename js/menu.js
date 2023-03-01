@@ -1,8 +1,9 @@
 let div = document.createElement('div');
 div.className = "mainnav";
-div.innerHTML = '<nav>'
+div.innerHTML = '<div id ="logo-collapse"><a href="index.html"><img src="img/patt2.png" width="258" height="135" /></a></div>'
+  + '<nav>'
   + '<ul>'
-  + '<li><a href="index.html">Acceuil</a></li>'
+  + '<li id="link-home"><a href="index.html">Acceuil</a></li>'
   + '<li class="menu-deroulant">'
   + '<a href="the-web.html">Le Web</a>'
   + '<ul class="sous-menu">'
