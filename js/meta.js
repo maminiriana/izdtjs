@@ -11,6 +11,8 @@ document.write('<meta name="Date" content="Mon, 02 Mars 2022 20:00:00">');
 document.write('<meta name="Robots" content="Index, Follow">'); 								 
 document.write('<meta name="Revisit-after" CONTENT="15">');
 
+document.write('<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>');
+
 document.write('<title>Site personnel de maminiriana - Site personnel de maminiriana | Enfant d\'Internet - référenceur, intégrateur, développeur web. Confiez nous vos projets.</title>'); 
 document.write('<script language="JavaScript" src="js/slider_left.js"></script>'); 
 document.write('<link rel="stylesheet" href="css/style.css" type="text/css">'); 
