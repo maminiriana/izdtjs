@@ -1,6 +1,6 @@
 let div = document.createElement('div');
 div.className = "mainnav";
-div.innerHTML = '<div id ="logo-collapse"><a href="index.html"><img src="img/patt2.png" width="258" height="135" /></a></div>'
+div.innerHTML = '<div id ="logo-collapse"><a href="index.html"><img src="img/patt2.png" /></a></div>'
   + '<nav>'
   + '<ul>'
   + '<li id="link-home"><a href="index.html">Acceuil</a></li>'

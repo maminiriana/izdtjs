@@ -40,14 +40,14 @@ p {
 }
 #wrapper {
 	margin: 0 auto;
-    width: 942px;
+    width: 950px;
 }
-.header{
+.header {
 	height: 274px;
 	padding-top: 12px;
 	background-color: #ffffff;
 }
-.head_bloc1{
+.head_bloc1 {
 	float: left;
     margin: 0;
     height: 100%;
@@ -63,24 +63,24 @@ p {
 	padding: 1px;
 	
 }
-.smile{
+.smile {
 	margin: 0;
 	float: left;
 }
-.pattern{
+.pattern {
 	margin: 0;
 	float: left;
 }
-.patt2{
+.patt2 {
 	margin: 0;
 	float: left;
 }
-.patt3{
+.patt3 {
 	margin: 0;
 	float: left;
 }
 
-.boxslideshow{
+.boxslideshow {
 	margin: 0;
 	float: left;
 	height: 272px;
@@ -88,29 +88,25 @@ p {
 	background: #FFFFFF;
 	padding: 1px;
 }
-
-
-
-
 /*CSS main ##########################################*/
-.mainnav{
+.mainnav {
 	background: url("../img/bg-menu.png") repeat scroll center top #EBEBEB;
 }
-.content{
+.content {
 	height: auto;
 	font-family: Tahoma,Arial,Helvetica,Sans-Serif;
 	font-size: 14px;
 }
-.main_ban{
+.main_ban {
 	width: 20%;
 	float: left;
 	background-color: #EBEBEB;
 }
 
-.main_ban div{
+.main_ban div {
 	padding: 5px;
 }
-.main_content{
+.main_content {
 	width: 80%;
 	float: left;
 	background-color: #EBEBEB;
@@ -134,17 +130,16 @@ p {
     color: #014464;
     font-weight: normal;
 }
-.services{
+.services {
 	height: auto;
 	padding: 5px;
 	margin: 0;
 }
-.offer{
+.offer {
 	float: left;
 	width: 19.5%;
 	padding: 10px 15px 10px 15px;
 	margin: 5px;
-	
 	background-color: #2d7da0;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
@@ -152,8 +147,6 @@ p {
 	-moz-box-shadow:inset 1px 1px 5px #555;
 	-webkit-box-shadow:inset 1px 1px 5px #555;
 	box-shadow: 1px 1px 5px #555;
-	
-	
 	background: -moz-linear-gradient(top,  #F6F6F6 0%, #2d7da0 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F6F6F6), color-stop(100%,#2d7da0));
     background: -webkit-linear-gradient(top,  #F6F6F6 0%,#2d7da0 100%);
@@ -161,25 +154,25 @@ p {
     background: -ms-linear-gradient(top,  #F6F6F6 0%,#2d7da0 100%);
     background: linear-gradient(top,  #F6F6F6 0%,#2d7da0 100%);
 }
-.offer h3, .benefits h3{
+.offer h3, .benefits h3 {
 	color: #000000;
 	font-size: 14px;
 	text-decoration: underline;
 }
-.offer  a{
+.offer  a {
 	color: #FFFFFF;
 	font-size: 14px;
 	text-decoration: none;
 }
-.benefits a{
+.benefits a {
 	color: #000000;
 	font-size: 14px;
 	text-decoration: none;
 }
-.offer  a:hover, .benefits a:hover{
+.offer  a:hover, .benefits a:hover {
 	color: #555555;
 }
-.benefits{
+.benefits {
 	float: left;
 	width: 19.5%; 
 	padding: 10px 15px 10px 15px;
@@ -191,96 +184,59 @@ p {
 	-moz-box-shadow:inset 1px 1px 5px #555;
 	-webkit-box-shadow:inset 1px 1px 5px #555;
 	box-shadow: 1px 1px 5px #555;
-	
 	background: -moz-linear-gradient(top,  #2d7da0 0%, #F6F6F6 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2d7da0), color-stop(100%,#F6F6F6));
     background: -webkit-linear-gradient(top,  #2d7da0 0%,#F6F6F6 100%);
     background: -o-linear-gradient(top,  #2d7da0 0%,#F6F6F6 100%);
     background: -ms-linear-gradient(top,  #2d7da0 0%,#F6F6F6 100%);
     background: linear-gradient(top,  #2d7da0 0%,#F6F6F6 100%);
-	
 }
-
-.readmore{
+.readmore {
 	text-align: right;
 }
-.readmore a{
+.readmore a {
 	color: #2d7da0;
 }
-.readmore a:hover{
+.readmore a:hover {
 	text-decoration: underline;
 }
-
-.ftlink{
-	float: left;
-	margin: 0 auto;
-	width: 433px;
-	height: auto;
-	
-}
-.ficors{
-	float: left;
-	margin: 0 auto;
-	width: 500px;
-	height: auto;
-}
-
-.first_article{
-	padding: 10px 10px 20px 10px;
-}
-
-.first_article h2{
-	font-family: Arial,Helvetica,Sans-Serif;
-	font-size: 24px;
-    color: #014464;
-	font-weight: normal;
-}
-.first_article h2 a{
-	color: #014464;
-	font-weight: normal;
-}
-
 /*CSS MENU MAINNAV*/
-:root{
+:root {
 	--hauteur-menu: 40px;
   }
   
-  * {
+* {
 	margin: 0px;
 	padding: 0px;
 	font-family: Montserrat, sans-serif;
   }
   
-  nav {
+nav {
 	width: 100%;
 	position: sticky;
 	top: 0;
   }
-  
-  nav > ul {
+nav > ul {
 	display: flex;
 	text-align: center;
 	box-shadow: 0px 1px 2px 1px rgba(0,0,0,0.3);
 	height: var(--hauteur-menu);
   }
-  
-  nav ul {
+nav ul {
 	list-style-type: none;
   }
-  
-  nav > ul > li {
+nav > ul > li {
 	position: relative;
 	height: 100%;
 	flex: 1;
   }
-  nav > ul > li:hover {
+nav > ul > li:hover {
 	background-color: white;
   }
-  
-  nav > ul > li:hover > a{
+nav > ul > li:hover > a{
 	color: #000000;
   }
-  nav > ul > li > a {
+nav > ul > li > a {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -288,23 +244,19 @@ p {
 	color: #ffffff;
 	text-transform: uppercase;
   }
-  
-  li a {
+li a {
 	text-decoration: none;
 	color: black;
   }
-  
-  .menu-deroulant > a:after{
+.menu-deroulant > a:after {
 	content: '❯';
 	font-size: 15px;
 	margin-left: 7px;
 	display: inline-block;
   }
-  
-  .menu-deroulant:hover > a:after{
+.menu-deroulant:hover > a:after {
 	animation: rotationFleche 0.2s linear forwards;
   }
-  
   @keyframes rotationFleche {
 	0% {
 	  transform: rotate(0deg);
@@ -316,8 +268,7 @@ p {
 	  transform: rotate(90deg);
 	}
   }
-  
-  .sous-menu {
+.sous-menu {
 	margin-top: var(--hauteur-menu);
 	width: 100%;
 	text-align: left;
@@ -326,12 +277,10 @@ p {
 	border-radius: 2px;
 	background-color: white;
   }
-  
-  .menu-deroulant:hover > .sous-menu {
+.menu-deroulant:hover > .sous-menu {
 	animation: apparitionSousMenu 1s forwards;
   }
-  
-  @keyframes apparitionSousMenu {
+@keyframes apparitionSousMenu {
 	0% {
 	  box-shadow: 0px 3px 3px 1px rgba(0,0,0,0);
 	  border-top: 3px solid #014464;
@@ -346,11 +295,11 @@ p {
 	}
   }
   
-  .sous-menu > li:hover {
+.sous-menu > li:hover {
 	background-color: #2d7da0;
   }
   
-  .sous-menu > li > a {
+.sous-menu > li > a {
 	align-items: center;
 	display: flex;
 	height: 50px;
@@ -358,7 +307,7 @@ p {
 	width: 100%;
   }
   
-  .sous-menu > li:hover > a {
+.sous-menu > li:hover > a {
 	color: white;
   }
 /*fin CSS MENU MAINNAV*/
@@ -378,12 +327,21 @@ p {
 	#wrapper {
 		width: auto;
 	}
-	.boxslider {
+	.boxslider, .smile {
 		display: none;
+	}
+	.patt1 {
+		display: inline;
+	}
+	.header {
+		height: 135px;
+	}
+	.main_content {
+		width: 100%;
 	}
 }	
 
-@media (min-width: 769px) {
+@media (min-width: 827px) {
 	#logo-collapse {
 		display: none;
 	}	
@@ -393,7 +351,7 @@ p {
     text-align: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 826px) {
 	.offer, .benefits {
 		width: 92%;
 	}
@@ -403,7 +361,6 @@ p {
 	nav ul {
 		font-size: 14px;
 	}
-
 	.header {
 		display: none;
 	}
@@ -418,5 +375,4 @@ p {
 	}
 
 }
-
 /*CSS responsive*/
