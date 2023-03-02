@@ -204,13 +204,6 @@ p {
 :root {
 	--hauteur-menu: 40px;
   }
-  
-/** {
-	margin: 0px;
-	padding: 0px;
-	font-family: Montserrat, sans-serif;
-  }*/
-  
 nav {
 	width: 100%;
 	position: sticky;
@@ -233,10 +226,10 @@ nav > ul > li {
 nav > ul > li:hover {
 	background-color: white;
   }
-nav > ul > li:hover > a{
+nav > ul > li:hover > a, nav > ul > li:hover > span {
 	color: #000000;
   }
-nav > ul > li > a {
+nav > ul > li > a , nav > ul > li > span {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -248,13 +241,13 @@ li a {
 	text-decoration: none;
 	color: black;
   }
-.menu-deroulant > a:after {
+.menu-deroulant > a:after, .menu-deroulant > span:after {
 	content: '❯';
 	font-size: 15px;
 	margin-left: 7px;
 	display: inline-block;
   }
-.menu-deroulant:hover > a:after {
+.menu-deroulant:hover > a:after, .menu-deroulant:hover > span:after {
 	animation: rotationFleche 0.2s linear forwards;
   }
   @keyframes rotationFleche {
@@ -339,6 +332,16 @@ li a {
 	.main_content {
 		width: 100%;
 	}
+	.main_content_the_web, .main_content_mediaweb, .main_content_canaldistributionweb, 
+	.main_content_step_concept_site, .main_content_mes_competences, .main_content_services-concept-site, 
+	.main_content_services-concept-site-dns-host, .main_content_services-concept-site-web-solution-main, 
+	.main_content_services-concept-site-benefits {
+		width: 98%;
+		padding: 1%;
+	}
+	.main_ban .welcome {
+		padding: 0;
+	}
 }	
 
 @media (min-width: 827px) {
@@ -354,6 +357,7 @@ li a {
 @media (max-width: 826px) {
 	.offer, .benefits {
 		width: 92%;
+		padding: 10px;
 	}
 	#link-home {
 		display: none;
@@ -361,8 +365,8 @@ li a {
 	nav ul {
 		font-size: 12px;
 	}
-	nav > ul > li > a {
-		left: 40%;
+	nav > ul > li > a, 	nav > ul > li > span {
+		left: 35%;
 	}
 	.header {
 		display: none;
@@ -373,8 +377,18 @@ li a {
 	#wrapper {
 		width: auto;
 	}
-	.main_content {
+	.main_content  {
 		width: 100%;
+	}
+	.main_content_the_web, .main_content_mediaweb, .main_content_canaldistributionweb, 
+	.main_content_step_concept_site, .main_content_mes_competences, .main_content_services-concept-site, 
+	.main_content_services-concept-site-dns-host, .main_content_services-concept-site-web-solution-main, 
+	.main_content_services-concept-site-benefits {
+		width: 98%;
+		padding: 1%;
+	}
+	.main_ban .welcome {
+		padding: 0;
 	}
 
 }
