@@ -205,11 +205,11 @@ p {
 	--hauteur-menu: 40px;
   }
   
-* {
+/** {
 	margin: 0px;
 	padding: 0px;
 	font-family: Montserrat, sans-serif;
-  }
+  }*/
   
 nav {
 	width: 100%;
@@ -359,7 +359,10 @@ li a {
 		display: none;
 	}
 	nav ul {
-		font-size: 14px;
+		font-size: 12px;
+	}
+	nav > ul > li > a {
+		left: 40%;
 	}
 	.header {
 		display: none;
